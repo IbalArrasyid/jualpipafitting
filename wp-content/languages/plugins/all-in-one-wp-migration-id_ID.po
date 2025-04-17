@@ -1,0 +1,558 @@
+# Translation of Plugins - All-in-One WP Migration and Backup - Stable (latest release) in Indonesian
+# This file is distributed under the same license as the Plugins - All-in-One WP Migration and Backup - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-04-08 02:21:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: id\n"
+"Project-Id-Version: Plugins - All-in-One WP Migration and Backup - Stable (latest release)\n"
+
+#. translators: 1: Link to archive, 2: Archive title, 3: File name, 4: Archive
+#. title, 5: File size.
+#: lib/model/export/class-ai1wm-export-download.php:68
+msgid ""
+"<a href=\"%1$s\" class=\"ai1wm-button-green ai1wm-emphasize ai1wm-button-download\" title=\"%2$s\" download=\"%3$s\">\n"
+"\t\t\t\t\t\t\t<span>Download %2$s</span>\n"
+"\t\t\t\t\t\t\t<em>Size: %4$s</em>\n"
+"\t\t\t\t\t\t\t</a>"
+msgstr ""
+"<a href=\"%1$s\" class=\"ai1wm-button-green ai1wm-emphasize ai1wm-button-download\" title=\"%2$s\" download=\"%3$s\">\n"
+"\t\t\t\t\t\t\t<span>Unduh %2$s</span>\n"
+"\t\t\t\t\t\t\t<em>Ukuran: %4$s</em>\n"
+"\t\t\t\t\t\t\t</a>"
+
+#. Plugin Name of the plugin
+#: all-in-one-wp-migration.php
+msgid "All-in-One WP Migration and Backup"
+msgstr "All-in-One WP Migration and Backup"
+
+#. translators: 1: Admin url, 2: Url
+#: lib/view/import/done.php:50
+msgid ""
+"» <a class=\"ai1wm-no-underline\" href=\"%1$s\" target=\"_blank\">Save permalinks structure</a><br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"https://wordpress.org/support/view/plugin-reviews/all-in-one-wp-migration?rate=5#postform\" target=\"_blank\">Review your migration experience</a><br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"%2$s\" target=\"_blank\">Protect your site with real-time threat protection</a>"
+msgstr ""
+"» <a class=\"ai1wm-no-underline\" href=\"%1$s\" target=\"_blank\">Simpan struktur permalink</a><br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"https://wordpress.org/support/view/plugin-reviews/all-in-one-wp-migration?rate=5#postform\" target=\"_blank\">Tinjau pengalaman migrasi Anda</a><br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"%2$s\" target=\"_blank\">Lindungi situs Anda dengan proteksi ancaman secara real-time</a>"
+
+#. translators: Url
+#: lib/view/import/avada.php:51
+msgid "» <a class=\"ai1wm-no-underline\" href=\"%s\" target=\"_blank\">Protect your site with real-time threat protection</a>"
+msgstr "» <a class=\"ai1wm-no-underline\" href=\"%s\" target=\"_blank\">Lindungi situs Anda dengan proteksi ancaman secara real-time</a>"
+
+#: lib/view/common/leave-feedback.php:40
+msgid "I have an idea"
+msgstr "Saya punya ide"
+
+#: lib/view/common/leave-feedback.php:49
+msgid "I need help"
+msgstr "Saya butuh bantuan"
+
+#: lib/view/common/leave-feedback.php:56
+msgid "Email address"
+msgstr "Alamat email"
+
+#: lib/view/export/advanced-settings.php:90
+msgid "Exclude themes (files)"
+msgstr "Kecualikan tema (file)"
+
+#: lib/view/export/advanced-settings.php:106
+msgid "Exclude plugins (files)"
+msgstr "Kecualikan plugin (file)"
+
+#: lib/view/export/advanced-settings.php:117
+msgid "Exclude database (sql)"
+msgstr "Kecualikan database (sql)"
+
+#: lib/view/export/export-buttons.php:37
+msgid "Export Site To"
+msgstr "Ekspor Situs Ke"
+
+#: lib/view/export/find-replace.php:37 lib/view/export/find-replace.php:46
+msgid "Search for"
+msgstr "Cari"
+
+#: lib/model/export/class-ai1wm-export-archive.php:39
+msgid "Creating export file..."
+msgstr "Membuat file ekspor..."
+
+#: lib/model/export/class-ai1wm-export-archive.php:46
+msgid "Export file created."
+msgstr "File ekspor dibuat."
+
+#: lib/model/export/class-ai1wm-export-config-file.php:75
+msgid "Configuration archived."
+msgstr "Konfigurasi diarsipkan."
+
+#: lib/model/export/class-ai1wm-export-config.php:182
+msgid "Configuration prepared."
+msgstr "Konfigurasi disiapkan."
+
+#: lib/model/export/class-ai1wm-export-database.php:162
+msgid "Database exported."
+msgstr "Database diekspor."
+
+#: lib/model/export/class-ai1wm-export-enumerate-media.php:95
+msgid "Media files gathered."
+msgstr "File media terkumpul."
+
+#: lib/model/export/class-ai1wm-export-enumerate-plugins.php:102
+msgid "Plugin files gathered."
+msgstr "File plugin terkumpul."
+
+#: lib/model/export/class-ai1wm-export-enumerate-themes.php:108
+msgid "Theme files gathered."
+msgstr "File tema terkumpul."
+
+#: lib/model/import/class-ai1wm-import-blogs.php:152
+msgid "Blogs prepared."
+msgstr "Blog disiapkan."
+
+#: lib/model/import/class-ai1wm-import-database.php:1016
+msgid "Database restored."
+msgstr "Database dipulihkan."
+
+#. translators: 1: Meta data stream URI.
+#: functions.php:1568
+msgid "Out of disk space. Could not write to: %s. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/out-of-disk-space/\" target=\"_blank\">Technical details</a>"
+msgstr "Ruang penyimpanan habis. Tidak dapat menulis ke: %s. Proses tidak dapat dilanjutkan. <a href=\"https://help.servmask.com/knowledgebase/out-of-disk-space/\" target=\"_blank\">Rincian teknis</a>"
+
+#: lib/model/import/class-ai1wm-import-check-encryption.php:61
+msgid "Backup is encrypted. Please provide decryption password: "
+msgstr "Pencadangan dienkripsi. Mohon sediakan kata sandi terdekripsi: "
+
+#: lib/controller/class-ai1wm-main-controller.php:952
+#: lib/controller/class-ai1wm-main-controller.php:1159
+msgid "Submit"
+msgstr "Kirimkan"
+
+#: lib/controller/class-ai1wm-main-controller.php:951
+msgid "Please enter a password to import the file"
+msgstr "Mohon masukkan kata sandi untuk mengimpor berkas"
+
+#: lib/controller/class-ai1wm-main-controller.php:950
+#: lib/controller/class-ai1wm-main-controller.php:1157
+msgid "The backup is encrypted"
+msgstr "Cadangan dienkripsi"
+
+#: lib/view/export/advanced-settings.php:52
+msgid "A password is required"
+msgstr "Kata sandi diperlukan"
+
+#: lib/view/export/advanced-settings.php:45
+msgid "Encrypt this backup with a password"
+msgstr "Lindungi cadangan ini dengan kata sandi"
+
+#: lib/model/import/class-ai1wm-import-check-encryption.php:50
+msgid "Importing an encrypted backup is not supported on this server. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/unable-to-encrypt-and-decrypt-backups/\" target=\"_blank\">Technical details</a>"
+msgstr "Mengimpor cadangan terenkripsi tidak didukung di server ini. <a href=\"https://help.servmask.com/knowledgebase/unable-to-encrypt-and-decrypt-backups/\" target=\"_blank\">Detail teknis</a>"
+
+#: lib/view/export/advanced-settings.php:65
+msgid "Password-protect and encrypt backups"
+msgstr "Kata sandi terlindung dan pencadangan terenkripsi"
+
+#: lib/controller/class-ai1wm-main-controller.php:955
+#: lib/controller/class-ai1wm-main-controller.php:1162
+#: lib/view/export/advanced-settings.php:57
+msgid "The passwords do not match"
+msgstr "Kata sandi tidak cocok"
+
+#: lib/controller/class-ai1wm-main-controller.php:954
+#: lib/controller/class-ai1wm-main-controller.php:1161
+#: lib/view/export/advanced-settings.php:55
+msgid "Repeat the password"
+msgstr "Ulangi kata sandi"
+
+#: lib/controller/class-ai1wm-main-controller.php:1152
+msgid "Error"
+msgstr "Eror"
+
+#: lib/controller/class-ai1wm-main-controller.php:1155
+msgid "List the content of the backup"
+msgstr "Daftar konten cadangan"
+
+#: lib/controller/class-ai1wm-main-controller.php:1156
+msgid "Reading..."
+msgstr "Membaca..."
+
+#: lib/view/backups/backups-list.php:131
+msgid "List"
+msgstr "Daftar"
+
+#: lib/view/backups/backups-list.php:129
+msgid "Show backup content"
+msgstr "Tampilkan konten cadangan"
+
+#: lib/view/backups/backups-list.php:95
+msgid "More"
+msgstr "Lainnya"
+
+#. translators: 1: Error message.
+#: lib/view/updater/error.php:33
+msgid "Error: %s"
+msgstr "Eror: %s"
+
+#. translators: 1: Number of files, 2: Progress.
+#: lib/model/export/class-ai1wm-export-themes.php:123
+msgid "Archiving %1$d theme files...<br />%2$d%% complete"
+msgstr "Pengarsipan %1$d berkas tema...<br />%2$d%% selesai"
+
+#: lib/view/main/contact-support.php:33
+msgid "Contact Support"
+msgstr "Dapatkan Bantuan"
+
+#: lib/model/import/class-ai1wm-import-permalinks.php:38
+msgid "Retrieving WordPress permalinks settings..."
+msgstr "Mendapatkan pengaturan permalink WordPress..."
+
+#: lib/view/import/avada.php:33
+msgid "» Permalinks are set to default. <a class=\"ai1wm-no-underline\" href=\"https://help.servmask.com/knowledgebase/permalinks-are-set-to-default/\" target=\"_blank\">Why?</a><br />"
+msgstr "» Permalinks diatur ke standar. <a class=\"ai1wm-no-underline\" href=\"https://help.servmask.com/knowledgebase/permalinks-are-set-to-default/\" target=\"_blank\">Mengapa?</a><br />"
+
+#: lib/view/import/avada.php:46
+msgid "» <a class=\"ai1wm-no-underline\" href=\"https://theme-fusion.com/documentation/avada/installation-maintenance/important-update-information/#clear-caches\" target=\"_blank\">Reset Avada Fusion Builder cache</a>.<br />"
+msgstr "» <a class=\"ai1wm-no-underline\" href=\"https://theme-fusion.com/documentation/avada/installation-maintenance/important-update-information/#clear-caches\" target=\"_blank\">Atur ulang cache Avada Fusion Builder</a>.<br />"
+
+#: lib/view/import/avada.php:43
+msgid "» <a class=\"ai1wm-no-underline\" href=\"https://oxygenbuilder.com/documentation/other/importing-exporting/#resigning\" target=\"_blank\">Re-sign Oxygen Builder shortcodes</a>.<br />"
+msgstr "» <a class=\"ai1wm-no-underline\" href=\"https://oxygenbuilder.com/documentation/other/importing-exporting/#resigning\" target=\"_blank\">Tandai ulang shortcode Oxygen Builder</a>.<br />"
+
+#: lib/view/main/translate.php:33
+msgid "Translate"
+msgstr "Terjemahkan"
+
+#. translators: 1: Number of files, 2: Progress.
+#: lib/model/export/class-ai1wm-export-media.php:83
+#: lib/model/export/class-ai1wm-export-media.php:123
+msgid "Archiving %1$d media files...<br />%2$d%% complete"
+msgstr "Pengarsipan %1$d berkas media...<br />%2$d%% selesai"
+
+#. translators: 1: Number of files, 2: Progress.
+#: lib/model/export/class-ai1wm-export-content.php:83
+#: lib/model/export/class-ai1wm-export-content.php:123
+msgid "Archiving %1$d content files...<br />%2$d%% complete"
+msgstr "Pengarsipan %1$d berkas konten...<br />%2$d%% selesai"
+
+#: lib/controller/class-ai1wm-main-controller.php:946
+#: lib/controller/class-ai1wm-main-controller.php:1131
+msgid "I have enough disk space"
+msgstr "Saya memiliki cukup ruang disk"
+
+#: lib/view/backups/backups-list.php:48 lib/view/backups/index.php:51
+msgid "Refreshing backup list..."
+msgstr "Menyegarkan daftar cadangan..."
+
+#: lib/view/import/button-file.php:33
+msgid "To choose a file please go inside the link and click on the browse button."
+msgstr "Untuk memilih file silakan masuk ke dalam link dan klik pada tombol Browse."
+
+#: lib/controller/class-ai1wm-main-controller.php:943
+#: lib/controller/class-ai1wm-main-controller.php:1127
+msgid "Finish"
+msgstr "Selesai"
+
+#: lib/model/import/class-ai1wm-import-validate.php:102
+msgid "The archive file appears to be corrupted. Follow <a href=\"https://help.servmask.com/knowledgebase/corrupted-archive/\" target=\"_blank\">this article</a> for possible fixes."
+msgstr "File arsip rusak. Ikuti panduan di <a href=\"https://help.servmask.com/knowledgebase/corrupted-archive/\" target=\"_blank\">artikel ini</a> untuk menyelesaikan masalah."
+
+#: lib/controller/class-ai1wm-main-controller.php:277
+msgid "All-in-One WP Migration Command"
+msgstr "Semua-dalam-satu WP migrasi perintah"
+
+#: lib/view/import/import-buttons.php:41
+msgid "Drag & Drop a backup to import it"
+msgstr "Drag & Drop cadangan untuk mengimpor"
+
+#: lib/controller/class-ai1wm-main-controller.php:1136
+msgid "Backup restore requires the Unlimited extension. <a href=\"https://servmask.com/products/unlimited-extension\" target=\"_blank\">Get it here</a>"
+msgstr "Pemulihan cadangan juga tersedia melalui ekstensi yang Tak Terbatas. <a href=\"https://servmask.com/products/unlimited-extension\" target=\"_blank\">Dapatkan di sini</a>"
+
+#: lib/controller/class-ai1wm-main-controller.php:801
+#: lib/controller/class-ai1wm-main-controller.php:1111
+#: lib/model/export/class-ai1wm-export-init.php:45
+msgid "Preparing to export..."
+msgstr "Bersiap-siap untuk ekspor..."
+
+#. translators: Human time diff
+#: lib/view/backups/backups-list.php:84
+msgid "%s ago"
+msgstr "%s yang lalu"
+
+#: lib/controller/class-ai1wm-main-controller.php:947
+#: lib/controller/class-ai1wm-main-controller.php:1132
+msgid "Continue"
+msgstr "Lanjutkan"
+
+#: lib/controller/class-ai1wm-main-controller.php:945
+#: lib/controller/class-ai1wm-main-controller.php:1130
+msgid "Proceed"
+msgstr "Lanjutkan"
+
+#: lib/controller/class-ai1wm-main-controller.php:807
+#: lib/controller/class-ai1wm-main-controller.php:942
+#: lib/controller/class-ai1wm-main-controller.php:1117
+#: lib/controller/class-ai1wm-main-controller.php:1128
+msgid "Close"
+msgstr "Tutup"
+
+#: lib/controller/class-ai1wm-main-controller.php:948
+#: lib/controller/class-ai1wm-main-controller.php:1133
+msgid "Please do not close this browser window or your import will fail"
+msgstr "Jangan tutup jendela browser ini atau Anda impor akan gagal"
+
+#: lib/controller/class-ai1wm-main-controller.php:808
+#: lib/controller/class-ai1wm-main-controller.php:1118
+msgid "Stop export"
+msgstr "Berhenti ekspor"
+
+#: lib/controller/class-ai1wm-main-controller.php:944
+#: lib/controller/class-ai1wm-main-controller.php:1129
+msgid "Stop import"
+msgstr "Menghentikan impor"
+
+#: lib/controller/class-ai1wm-main-controller.php:1261
+msgid "Your purchase ID is invalid. Please <a href=\"mailto:support@servmask.com\">contact us</a>."
+msgstr "ID pembelian Anda tidak valid, silahkan <a href=\"mailto:support@servmask.com\">hubungi kami</a>."
+
+#: lib/controller/class-ai1wm-main-controller.php:1135
+msgid "Are you sure you want to delete this backup?"
+msgstr "Anda yakin ingin menghapus cadangan ini?"
+
+#: lib/model/export/class-ai1wm-export-config.php:38
+msgid "Preparing configuration..."
+msgstr "Mempersiapkan konfigurasi..."
+
+#. translators: Progress.
+#: lib/model/export/class-ai1wm-export-config-file.php:63
+#: lib/model/export/class-ai1wm-export-config-file.php:99
+msgid "Archiving configuration...<br />%d%% complete"
+msgstr "Pengarsipan konfigurasi... <br />%d%% selesai"
+
+#. translators: Progress.
+#: lib/model/export/class-ai1wm-export-database-file.php:69
+#: lib/model/export/class-ai1wm-export-database-file.php:105
+msgid "Archiving database...<br />%d%% complete"
+msgstr "Pengarsipan database...<br />%d%% lengkap"
+
+#. translators: Progress.
+#: lib/model/import/class-ai1wm-import-validate.php:90
+#: lib/model/import/class-ai1wm-import-validate.php:162
+msgid "Unpacking archive...<br />%d%% complete"
+msgstr "Membongkar Arsip...<br />%d%% lengkap"
+
+#. translators: Progress.
+#: lib/model/import/class-ai1wm-import-database.php:81
+#: lib/model/import/class-ai1wm-import-database.php:1037
+msgid "Restoring database...<br />%d%% complete"
+msgstr "Memulihkan database... <br />%d%% lengkap"
+
+#: lib/controller/class-ai1wm-main-controller.php:1371
+msgid "Monthly"
+msgstr "Bulanan"
+
+#: lib/controller/class-ai1wm-main-controller.php:1367
+msgid "Weekly"
+msgstr "Mingguan"
+
+#: lib/controller/class-ai1wm-main-controller.php:934
+#: lib/controller/class-ai1wm-main-controller.php:1120
+msgid "Preparing to import..."
+msgstr "Mempersiapkan untuk mengimpor..."
+
+#: lib/model/import/class-ai1wm-import-mu-plugins.php:37
+msgid "Activating mu-plugins..."
+msgstr "Mengaktifkan mu-plugins..."
+
+#: lib/view/export/advanced-settings.php:125
+msgid "Do <strong>not</strong> replace email domain (sql)"
+msgstr "Apakah <strong>tidak</strong> menggantikan domain email (sql)"
+
+#: lib/model/import/class-ai1wm-import-blogs.php:37
+msgid "Preparing blogs..."
+msgstr "Mempersiapkan blogs..."
+
+#: lib/view/updater/modal.php:50
+msgid "Discard"
+msgstr "Membuang"
+
+#: lib/view/updater/modal.php:57
+msgid "There is an update available. To update, you must enter your"
+msgstr "Ada update yang tersedia. Untuk memperbarui, Anda harus memasukkan Anda"
+
+#: lib/view/updater/modal.php:44
+msgid "here"
+msgstr "disini"
+
+#: lib/view/updater/modal.php:48
+msgid "Save"
+msgstr "Save/Simpan/Hemat"
+
+#: lib/view/updater/modal.php:43
+msgid "Don't have a Purchase ID? You can find your Purchase ID"
+msgstr "Tidak memiliki ID pembelian? Anda dapat menemukan ID pembelian Anda"
+
+#: lib/view/updater/modal.php:39 lib/view/updater/modal.php:58
+msgid "Purchase ID"
+msgstr "Pembelian ID"
+
+#: lib/view/updater/modal.php:36
+msgid "To update your plugin/extension to the latest version, please fill your Purchase ID below."
+msgstr "Update plugin/ekstensi Anda ke versi terbaru, silakan isi ID pembelian Anda di bawah ini."
+
+#: lib/controller/class-ai1wm-main-controller.php:1260
+#: lib/view/updater/check.php:33
+msgid "Check for updates"
+msgstr "Cek Pembaruan"
+
+#: lib/view/updater/modal.php:35
+msgid "Enter your Purchase ID"
+msgstr "Masukkan ID pembelian"
+
+#: lib/controller/class-ai1wm-main-controller.php:649
+#: lib/controller/class-ai1wm-main-controller.php:650
+msgid "Export"
+msgstr "Ekspor"
+
+#: lib/controller/class-ai1wm-main-controller.php:659
+#: lib/controller/class-ai1wm-main-controller.php:660
+msgid "Import"
+msgstr "Impor"
+
+#: lib/view/backups/backups-list.php:38
+msgid "Name"
+msgstr "Nama"
+
+#: lib/view/backups/backups-list.php:109 lib/view/backups/backups-list.php:111
+#: lib/view/backups/backups-list.php:114 lib/view/backups/backups-list.php:116
+#: lib/view/backups/backups-list.php:124
+msgid "Download"
+msgstr "Unduh"
+
+#: lib/view/export/find-replace.php:54
+msgid "Add"
+msgstr "Menambahkan"
+
+#: lib/view/export/button-file.php:33 lib/view/import/button-file.php:34
+msgid "File"
+msgstr "Berkas"
+
+#: lib/view/export/advanced-settings.php:37
+msgid "Advanced options"
+msgstr "Pengaturan Tingkat Lanjut"
+
+#: lib/view/common/share-buttons.php:73
+msgid "Tweet"
+msgstr "Mengirimkan tweet"
+
+#: lib/view/common/leave-feedback.php:69
+msgid "Cancel"
+msgstr "Batalkan"
+
+#: lib/view/common/leave-feedback.php:72
+msgid "Send"
+msgstr "Kirim"
+
+#: lib/view/backups/backups-list.php:136 lib/view/backups/backups-list.php:138
+msgid "Delete"
+msgstr "Hapus"
+
+#: lib/view/backups/backups-list.php:101 lib/view/backups/backups-list.php:103
+msgid "Restore"
+msgstr "Kembalikan"
+
+#: lib/view/backups/backups-list.php:40
+msgid "Size"
+msgstr "Ukuran"
+
+#: lib/view/backups/backups-list.php:39
+msgid "Date"
+msgstr "Tanggal"
+
+#: lib/view/export/find-replace.php:40
+msgid "<another-text>"
+msgstr "<another-text>"
+
+#: lib/controller/class-ai1wm-main-controller.php:669
+#: lib/controller/class-ai1wm-main-controller.php:670
+#: lib/view/backups/index.php:39
+msgid "Backups"
+msgstr "Backup"
+
+#: lib/view/backups/index.php:59
+msgid "Create backup"
+msgstr "Buat cadangan"
+
+#: lib/view/export/index.php:39
+msgid "Export Site"
+msgstr "Ekspor situs"
+
+#: lib/view/main/multisite-notice.php:43
+msgid "Get multisite"
+msgstr "Mendapatkan multisite"
+
+#: lib/view/import/import-buttons.php:45
+msgid "Import From"
+msgstr "Impor dari"
+
+#: lib/view/import/index.php:39
+msgid "Import Site"
+msgstr "Impor situs"
+
+#: lib/view/export/help-section.php:44
+msgid "In the advanced settings section you can configure more precisely the way of exporting."
+msgstr "Di bagian pengaturan lanjutan Anda dapat mengkonfigurasi lebih tepatnya cara mengekspor."
+
+#: lib/view/common/sidebar-right.php:41
+msgid "Leave Feedback"
+msgstr "Meninggalkan umpan balik"
+
+#: lib/view/export/help-section.php:52
+msgid "Once the file is successfully downloaded on your computer, you can import it to any of your WordPress sites."
+msgstr "Setelah file tersebut berhasil di-download pada komputer Anda, Anda dapat mengimpor ke salah satu situs WordPress Anda."
+
+#: lib/view/export/help-section.php:48
+msgid "Press \"Export\" button and the site archive file will pop up in your browser."
+msgstr "Tekan tombol \"Ekspor\" dan file arsip situs akan muncul di peramban."
+
+#: lib/model/export/class-ai1wm-export-download.php:37
+msgid "Renaming export file..."
+msgstr "Mengganti nama file yang diekspor..."
+
+#: lib/view/export/find-replace.php:39 lib/view/export/find-replace.php:47
+msgid "Replace with"
+msgstr "Ganti dengan"
+
+#. Author of the plugin
+#: all-in-one-wp-migration.php
+msgid "ServMask"
+msgstr "ServMask"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: all-in-one-wp-migration.php
+msgid "https://servmask.com/"
+msgstr "https://servmask.com/"
+
+#: lib/view/export/find-replace.php:38
+msgid "<text>"
+msgstr "<text>"
+
+#: lib/view/export/advanced-settings.php:38
+msgid "(click to expand)"
+msgstr "(Klik untuk membuka pengaturan kolom)"
+
+#: lib/model/import/class-ai1wm-import-done.php:365
+#: lib/model/import/class-ai1wm-import-done.php:367
+#: lib/model/import/class-ai1wm-import-done.php:369
+msgid "Your site has been imported successfully!"
+msgstr "Situs Anda telah berhasil diimpor!"
+
+#: lib/view/export/find-replace.php:41
+msgid "in the database"
+msgstr "dalam database"

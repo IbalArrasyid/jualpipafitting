@@ -1,0 +1,16 @@
+# Ignore WordPress backup files
+wp-content/ai1wm-backups/
+*.wpress
+*.zip
+*.tar
+*.xml
+
+# Ignore uploads large files (optional)
+wp-content/uploads/**/*.xml
+
+# Ignore other unnecessary files
+node_modules/
+vendor/
+.DS_Store
+Thumbs.db
+
